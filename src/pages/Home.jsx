@@ -126,7 +126,6 @@ export default function Home() {
 
     const newProductId = products.length + 1;
 
-    // Buat objek produk baru dengan id dan data dari state newProduct
     const newProductData = {
       id: newProductId,
       ...newProduct,
@@ -335,8 +334,6 @@ export default function Home() {
                 }
               />
             </label>
-            {/* Tambahkan input untuk gambar, kategori, atau detail lainnya */}
-            {/* ... */}
             <div className="button-container">
               <Button type="submit">Tambah</Button>
               <Button onClick={() => setShowAddProductForm(false)}>
